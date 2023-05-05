@@ -1,0 +1,27 @@
+<template>
+    <lightning-card class = "slds-p-around_medium" title = "Select Amount" icon-name = "custom:custom17">
+        <div class = "slds-m-bottom_medium">
+
+            <template for:each={amountOptions} for:item = "amount">               
+                <lightning-button class = "slds-m-around--xxx-small slds-p-horizontal--large slds-size--1-of-6" 
+                                  key={amount} 
+                                  value={amount.value} 
+                                  variant={amount.variant}  
+                                  label={amount.label} 
+                                  onclick = {handleAmountChange}>
+                </lightning-button>         
+            </template>
+
+        </div>
+        <div class = "slds-col slds-size_1-of-3 slds-p-around_medium slds-m-left--small">
+            <lightning-input
+                            type = "number"
+                            label = "Other Amount"
+                            min = "5"
+                            value = {otherAmount}
+                            onchange = {handleOtherAmountChange}
+                            placeholder = "Enter other amount from above">
+            </lightning-input>
+        </div>
+    </lightning-card>
+</template>

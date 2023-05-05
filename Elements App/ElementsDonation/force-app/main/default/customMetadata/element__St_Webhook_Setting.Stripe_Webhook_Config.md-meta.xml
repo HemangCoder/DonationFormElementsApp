@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Stripe Webhook Config</label>
+    <protected>false</protected>
+    <values>
+        <field>element__Balance_Transaction_API_Limit__c</field>
+        <value xsi:type="xsd:double">100.0</value>
+    </values>
+    <values>
+        <field>element__Balance_Transaction_API_Types__c</field>
+        <value xsi:type="xsd:string">charge,refund</value>
+    </values>
+    <values>
+        <field>element__Webhook_Id__c</field>
+        <value xsi:type="xsd:string">we_1N3bJVKb5V0c9vfdTVnZOQJb</value>
+    </values>
+    <values>
+        <field>element__Webhook_Signing_Secret__c</field>
+        <value xsi:type="xsd:string">whsec_45LlFo7vnb7MZKVXK2VoPQmiP5rl84cv</value>
+    </values>
+</CustomMetadata>

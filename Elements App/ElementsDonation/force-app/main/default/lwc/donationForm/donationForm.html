@@ -1,0 +1,30 @@
+<template>
+
+    <lightning-card title = "Donation Form" class = "slds-align--absolute-center slds-text-heading--label">
+
+      <c-donation-type-selector ontypechange = {handleDonationTypeChange}>
+      </c-donation-type-selector>
+
+      <c-donation-amount-selector donation-type = {donationType} 
+                                  onamountchange = {handleDonationAmountChange}>
+      </c-donation-amount-selector> 
+
+      <c-contact-details oncontactchange = {handleContactDetailsChange}>
+      </c-contact-details>
+    
+      <div class="slds-align--absolute-center">
+        <c-donate-button donate-button-label = {donateButtonLabel} 
+                         is-donate-button-disabled = {isDonateButtonDisabled} 
+                         donate-button-icon-name = {donateButtonIconName} 
+                         donate-button-variant = {donateButtonVariant} 
+                         onsubmit = {handleSubmit} 
+                         class = "slds-p-around--large">
+        </c-donate-button>
+
+        <c-reset-button  onreset = {handleReset}>
+        </c-reset-button>
+      </div>
+
+    </lightning-card>
+
+</template>

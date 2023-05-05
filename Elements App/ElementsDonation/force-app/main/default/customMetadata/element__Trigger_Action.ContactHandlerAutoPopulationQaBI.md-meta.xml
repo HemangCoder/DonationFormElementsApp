@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>ContactHandlerAutoPopulationQaBI</label>
+    <protected>false</protected>
+    <values>
+        <field>element__After_Delete__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>element__After_Insert__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>element__After_Undelete__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>element__After_Update__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>element__Allow_Flow_Recursion__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>element__Apex_Class_Name__c</field>
+        <value xsi:type="xsd:string">ContactHandlerAutoPopulationQa</value>
+    </values>
+    <values>
+        <field>element__Before_Delete__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>element__Before_Insert__c</field>
+        <value xsi:type="xsd:string">Contact</value>
+    </values>
+    <values>
+        <field>element__Before_Update__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>element__Bypass_Execution__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>element__Bypass_Permission__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>element__Description__c</field>
+        <value xsi:type="xsd:string">Trigger for Auto Population of Description on Contact</value>
+    </values>
+    <values>
+        <field>element__Flow_Name__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>element__Order__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>element__Required_Permission__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

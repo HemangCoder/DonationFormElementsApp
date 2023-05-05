@@ -1,0 +1,67 @@
+<template>
+  <lightning-card class = "slds-p-around_medium" title = "CONTACT DETAILS" icon-name = "standard:contact">
+
+    <div class = "slds-grid slds-wrap slds-align_absolute-center">
+      <div class = "slds-col slds-size_1-of-3 slds-p-around_medium">
+        <lightning-input class = "my-input" 
+                         type = "text" 
+                         label = "First Name" 
+                         placeholder = "Enter your First Name" 
+                         required 
+                         onchange = {handleFirstNameChange} 
+                         onfocus = {handleInputFocus} 
+                         onblur = {handleInputBlur}>
+        </lightning-input>
+      </div>
+
+      <!-- Add empty div for space -->
+      <div class = "slds-col slds-size_1-of-12"></div> 
+      
+      <div class = "slds-col slds-size_1-of-3 slds-p-around_medium">
+        <lightning-input type = "text" 
+                         label = "Last Name" 
+                         placeholder = "Enter your Last Name" 
+                         required 
+                         onchange = {handleLastNameChange} 
+                         onfocus = {handleInputFocus} 
+                         onblur = {handleInputBlur}>
+        </lightning-input>
+      </div>
+      
+      <div class = "slds-col slds-size_1-of-3 slds-p-around_medium">
+        <lightning-input type = "email" 
+                         label = "Email" 
+                         placeholder = "Enter your Email" 
+                         required 
+                         onchange = {handleEmailChange} 
+                         onfocus = {handleInputFocus} 
+                         onblur = {handleInputBlur}>
+        </lightning-input>
+      </div>
+
+      <!-- Add empty div for space -->
+      <div class = "slds-col slds-size_1-of-12"></div> 
+      
+      <div class = "slds-col slds-size_1-of-3 slds-p-around_medium">
+        <lightning-input type = "tel" 
+                         label = "Phone" 
+                         placeholder = "Enter your Phone Number" 
+                         onchange = {handlePhoneChange} 
+                         onfocus = {handleInputFocus} 
+                         onblur = {handleInputBlur}>
+        </lightning-input>
+      </div>
+      
+      <div class = "slds-col slds-size_9-of-12 slds-p-around_medium">
+        <lightning-input type = "text" 
+                         label = "Address" 
+                         placeholder = "Enter your Address" 
+                         onchange = {handleAddressChange} 
+                         onfocus = {handleInputFocus} 
+                         onblur = {handleInputBlur}>
+        </lightning-input>
+      </div>
+    </div>
+
+  </lightning-card>
+</template>

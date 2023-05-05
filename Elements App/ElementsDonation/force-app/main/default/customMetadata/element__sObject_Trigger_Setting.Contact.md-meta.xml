@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Contact</label>
+    <protected>false</protected>
+    <values>
+        <field>element__Bypass_Execution__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>element__Bypass_Permission__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>element__FlowTriggerRecord_Class_Name__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>element__Object_API_Name__c</field>
+        <value xsi:type="xsd:string">Contact</value>
+    </values>
+    <values>
+        <field>element__Object_Namespace__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>element__Required_Permission__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>
